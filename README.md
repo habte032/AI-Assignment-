@@ -1,2 +1,2 @@
-# AI-Individual-Assignment-
-#Habtemariam Kibru 1868/12
+# AI-Individual-Assignment
+# Habtemariam Kibru 1868/12
