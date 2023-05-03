@@ -1,3 +1,5 @@
+# Dagmawit Tsegaye 
+# 1895/12
 import random
 
 def get_user_move():
