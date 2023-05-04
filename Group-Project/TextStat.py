@@ -14,7 +14,19 @@ from collections import Counter
 #def display_char_frequency(char_freq):
 
 
-#def display_statistical_information(text):
+def display_statistical_information(text):
+    """Displays statistical information about the text."""
+    lines = text.count('\n') + 1
+    words = len(text.split())
+    chars = len(text)
+    print("ቁጥራዊ መርጃ(Statistical Information):")
+    print()
+    print(f"ጠቅላላ መስመር(Total Lines): {lines}")
+    print()
+    print(f"ጠቅላላ የቃላት ብዛት(Total Words): {words}")
+    print()
+    print(f"ጠቅላላ የፊደል ብዛት(Total Characters): {chars}")
+
     
  
 
