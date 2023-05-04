@@ -3,7 +3,10 @@ import unicodedata
 from collections import Counter
 
 #def compute_word_frequency(text):
-
+def compute_char_frequency(text):
+    """Computes character frequency in the text."""
+    char_freq = Counter(text)
+    return char_freq
 
 #def compute_char_frequency(text):
 
