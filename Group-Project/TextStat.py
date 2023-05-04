@@ -9,7 +9,11 @@ def compute_char_frequency(text):
     return char_freq
 
 #def compute_char_frequency(text):
-
+def compute_word_frequency(text):
+    ""Computes word frequency in the text.""
+    words=text.split()
+    word_freq=Counter(Words)
+    return word_freq
 
 def display_word_frequency(word_freq): 
     """Displays words in decreasing order of their frequency."""
