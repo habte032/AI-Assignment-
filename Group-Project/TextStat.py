@@ -16,7 +16,14 @@ def display_word_frequency(word_freq):
         print(f"{word}: {freq}")
         print()
 
-#def display_char_frequency(char_freq):
+def display_char_frequency(char_freq):
+    """Displays the first five most frequently occurring characters."""
+    print("የፊደል ድግግሞሽ(Character Frequency):")
+    for char, freq in char_freq.most_common(5):
+        if char.isspace():
+            continue
+        print(f"{char}= {freq}")
+        print()
 
 
 def display_statistical_information(text):
