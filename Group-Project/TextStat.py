@@ -12,7 +12,7 @@ def compute_char_frequency(text):
 def compute_word_frequency(text):
     """Computes word frequency in the text."""
     words=text.split()
-    word_freq=Counter(Words)
+    word_freq=Counter(words)
     return word_freq
 
 def display_word_frequency(word_freq): 
@@ -26,7 +26,7 @@ def display_word_frequency(word_freq):
 def display_char_frequency(char_freq):
     """Displays the first five most frequently occurring characters."""
     print("የፊደል ድግግሞሽ(Character Frequency):")
-    for char, freq in char_freq.most_common(5):
+    for char, freq in char_freq.most_common(6):
         if char.isspace():
             continue
         print(f"{char}= {freq}")
