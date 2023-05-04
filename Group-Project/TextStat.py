@@ -27,8 +27,7 @@ def display_statistical_information(text):
     print()
     print(f"ጠቅላላ የፊደል ብዛት(Total Characters): {chars}")
 
-    
- 
+     
 
 # Read text file
 #we can read both amaharic and English Text
