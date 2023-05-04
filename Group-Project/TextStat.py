@@ -8,8 +8,13 @@ from collections import Counter
 #def compute_char_frequency(text):
 
 
-#def display_word_frequency(word_freq):
-
+def display_word_frequency(word_freq): 
+    """Displays words in decreasing order of their frequency."""
+    print("የቃላት ድግግሞሽ(Word Frequency):")
+    print()
+    for word, freq in word_freq.most_common():
+        print(f"{word}: {freq}")
+        print()
 
 #def display_char_frequency(char_freq):
 
